@@ -67,11 +67,16 @@
          
         max-width: 60%
           
-        
-
-          
-          
        }
+
+       .outer-div {
+          width: 100%;
+          
+        }
+
+        /* .outer-table {
+          width: 50%;
+        } */
 
         /* p {
           width: 100%;
@@ -91,9 +96,11 @@
   </head>
   <body>
     <!--container-->
-    <table width="100%" cellspacing="0" cellpadding="0" border="1">
+    
+    <div class="outer-div">
+    <table width="100%" cellspacing="0" cellpadding="0" border="1" class="outer-table">
       <tr>
-        <td class="container" style="width:100%">
+        <td class="container" style="width:100%;">
           <!--header-->
           <table width="100%" cellspacing="0" cellpadding="0" border="1">
             <tr>
@@ -648,6 +655,7 @@
         </td>
       </tr>
     </table>
+  </div>
     <!--end of container-->
   </body>
 </html>
